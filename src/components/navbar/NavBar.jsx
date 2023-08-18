@@ -1,5 +1,6 @@
 import "./navbar.css";
-import CartWidget from "./CartWidget";
+import CartWidget from "../CartWidget/CartWidget";
+import Menu from "../Menu/Menu";
 
 export default function NavBar(){
     return(
@@ -7,10 +8,7 @@ export default function NavBar(){
 
             <h1 style={{margin:0, padding:"20px", textDecoration:"underline"}}>ShopTastic</h1>
 
-            <menu>
-                <li>Inicio</li>
-                <li>Productos</li>
-            </menu>
+            <Menu/>
 
             <CartWidget/>
         </nav>
