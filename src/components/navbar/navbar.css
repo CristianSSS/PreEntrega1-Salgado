@@ -1,0 +1,8 @@
+.navbar{
+    box-shadow: var(--shadow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: .75em;
+}
