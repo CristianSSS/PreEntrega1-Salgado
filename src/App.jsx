@@ -10,7 +10,7 @@ export default function App() {
 
       <NavBar/>
 
-      <ItemListContainer greeting="Hola !" />
+      <ItemListContainer greeting="Productos" />
 
     </div>
 
